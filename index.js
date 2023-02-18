@@ -2,23 +2,23 @@
 //alert(`You are ${age}!`);
 //let yes = confirm('Are we continuing to talk?');
 //alert('You chose ' + yes);
-function showMessage()
-{
-alert('Hello everyone!');
-}
-showMessage();
+//function showMessage()
+//{
+//alert('Hello everyone!');
+//}
+//showMessage();
 
-function sum(a, b) {
-    return a + b;
-}
+//function sum(a, b) {
+//    return a + b;
+//}
 
 //alert(sum(5,6));
 
-function y(x) {
-    return x**2;
-}
+//function y(x) {
+//    return x**2;
+//}
 
-let result = y(2);
+//let result = y(2);
 //alert(result);
 
 function showMessageFromUser(name, message) {
@@ -27,3 +27,20 @@ function showMessageFromUser(name, message) {
 }
 
 showMessageFromUser('Jane', 'hello');
+
+function showX(x)
+{
+return x;
+}
+console.log(showX(28));
+
+
+
+
+let foo = "Cat";
+
+console.log(foo);
+
+
+let sum = (a, b) => a + b;
+console.log(sum(3,6));
