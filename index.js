@@ -35,12 +35,11 @@ return x;
 console.log(showX(28));
 
 
-
-
-let foo = "Cat";
+let sum = (a, b) => a + b;
+console.log(sum(3,6));
 
 console.log(foo);
 
+var foo = "Cat";
 
-let sum = (a, b) => a + b;
-console.log(sum(3,6));
+console.log(foo);
